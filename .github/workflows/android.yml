@@ -26,10 +26,10 @@ jobs:
     - name: Store generated APK file
       uses: actions/upload-artifact@v2
       with:
-        name: revanced-manager
+        name: ladb
         path: ./app/build/outputs/apk/debug/app-debug.apk
     - name: Upload apk as artifact
       uses: actions/upload-artifact@v2
       with:
-        name:  revanced-manager
+        name:  ladb
         path: ./app/build/outputs/apk/debug/app-debug.apk
